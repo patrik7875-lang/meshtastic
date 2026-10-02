@@ -1,0 +1,319 @@
+(footprint "ATGM336H5N31"
+	(version 20260831)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(descr "ATGM336H-5N31-2")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2202d8a9-a594-4151-b1f7-eb540c4ed9e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ATGM336H5N31"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4b468e5e-85f1-4239-bef4-b58c064bb7a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4242982-3836-489e-8fca-00b9bc966c5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7e676a3-5b19-4878-8141-1561e49cbbbf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 6.2 4.4)
+		(end 6.2 4.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2acf2f9c-d755-4e7e-a2f3-4080f775b13c")
+	)
+	(fp_line
+		(start 6.4 4.4)
+		(end 6.4 4.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1aaeb863-ac87-4c08-9173-b74c7762dcd0")
+	)
+	(fp_arc
+		(start 6.2 4.4)
+		(mid 6.3 4.3)
+		(end 6.4 4.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79e5de10-f171-4179-831a-deffc44bb7ea")
+	)
+	(fp_arc
+		(start 6.4 4.4)
+		(mid 6.3 4.5)
+		(end 6.2 4.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36aeac24-45dc-49c5-b52a-ca38b4d7b5f2")
+	)
+	(fp_line
+		(start -6.75 -6.05)
+		(end 6.75 -6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff1320d6-5ccc-4bab-af9f-90976b6a5953")
+	)
+	(fp_line
+		(start -6.75 6.05)
+		(end -6.75 -6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "519f9135-06b9-4a73-a49f-87755e639b4e")
+	)
+	(fp_line
+		(start 6.75 -6.05)
+		(end 6.75 6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d767403d-eb66-438a-9816-9ead8b29fccd")
+	)
+	(fp_line
+		(start 6.75 6.05)
+		(end -6.75 6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9dd4e661-f245-4d26-a9e5-a10a73c4bf51")
+	)
+	(fp_line
+		(start -4.85 -5.05)
+		(end 4.85 -5.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b91313e-8c2c-4bf2-a14b-070ba0efc9ab")
+	)
+	(fp_line
+		(start -4.85 5.05)
+		(end -4.85 -5.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74ceab45-84c9-4a69-a53f-30978bfa5990")
+	)
+	(fp_line
+		(start 4.85 -5.05)
+		(end 4.85 5.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfd0c76e-1b23-438d-9ab8-bf68c98959ff")
+	)
+	(fp_line
+		(start 4.85 5.05)
+		(end -4.85 5.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4082c69e-71fb-4748-a77b-4ba4838789cc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dee8731a-1e94-489e-b8dd-4e99cbfaa16e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 4.85 4.4 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cd74b395-8274-4a58-9c40-f62ad48a691e")
+	)
+	(pad "2" smd rect
+		(at 4.85 3.3 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f56d3e4-074f-4dee-ae72-b99ac07e77c1")
+	)
+	(pad "3" smd rect
+		(at 4.85 2.2 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d3b272c0-fc5e-40d5-8b22-0d4700a2eb5b")
+	)
+	(pad "4" smd rect
+		(at 4.85 1.1 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0d2555cf-b741-4b3b-b19c-57990a34f3ca")
+	)
+	(pad "5" smd rect
+		(at 4.85 0 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1e3fcf0-4de9-4229-b9c1-5f8f41c57b96")
+	)
+	(pad "6" smd rect
+		(at 4.85 -1.1 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f589ae5-b4e8-4912-aa76-8bf6554eb6e7")
+	)
+	(pad "7" smd rect
+		(at 4.85 -2.2 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f1911acd-ee59-48b0-a73e-b3d4ff21d98a")
+	)
+	(pad "8" smd rect
+		(at 4.85 -3.3 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "64249b99-cc2e-4ffb-b24a-4a9fb7a0c3ed")
+	)
+	(pad "9" smd rect
+		(at 4.85 -4.4 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c28153b9-91ad-4aff-9cb0-f0c0ceafacd1")
+	)
+	(pad "10" smd rect
+		(at -4.85 -4.4 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d4b8cc7b-3996-481e-9781-c81cf97b13d3")
+	)
+	(pad "11" smd rect
+		(at -4.85 -3.3 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "29e5c91b-79e0-4cb1-a329-82a457de4567")
+	)
+	(pad "12" smd rect
+		(at -4.85 -2.2 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6b984bdf-950c-436a-a9be-7c836af8697b")
+	)
+	(pad "13" smd rect
+		(at -4.85 -1.1 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e630653-97ca-47e5-bbc9-9837ed25fe06")
+	)
+	(pad "14" smd rect
+		(at -4.85 0 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "193ba25a-480d-4b39-b65b-b367d359ae07")
+	)
+	(pad "15" smd rect
+		(at -4.85 1.1 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ce5ebc37-b3d7-4cd6-916b-b7693e819b81")
+	)
+	(pad "16" smd rect
+		(at -4.85 2.2 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84a6a825-78ee-4d7a-994e-cd10f3ee48c1")
+	)
+	(pad "17" smd rect
+		(at -4.85 3.3 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca91c6f1-eb14-48af-b968-8ce60c2b2d3c")
+	)
+	(pad "18" smd rect
+		(at -4.85 4.4 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1435bda5-d181-4fd1-84a0-bd9ce725868e")
+	)
+	(embedded_fonts no)
+	(model "ATGM336H-5N31.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/user/Downloads/RP2040_SOS_band-main/RP2040_SOS_band-main/Footprints&symbols/ATGM336H-5N31/3D/ATGM336H-5N31.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,170 @@
+(footprint "RotaryEncoder_EC11B-Horizontal-Dual"
+	(version 20260831)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a81155bc-9d15-4654-b3f7-18a5b2be92c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RotaryEncoder_EC11B-Horizontal-Dual"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44d178af-e812-4821-80f4-c8b9d7b1ea80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7959c604-30cc-4ff8-a409-d220cc11202b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb2a8c8b-b2ca-49ac-8c55-1cd970aeb09e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -7.92 -3.15)
+		(end 7.92 4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2ffc9ca1-f48e-4a36-86a6-80c8d73a9839")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "51781a4b-d14b-4cdd-b632-351665534537")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole oval
+		(at -5.8 0.3125)
+		(size 2.4 3.825)
+		(drill oval 1.9 3.425)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ac5ea4e4-3421-491c-a9df-956d10662f0b")
+	)
+	(pad "" thru_hole oval
+		(at 5.8 0.3125)
+		(size 2.4 3.825)
+		(drill oval 1.9 3.425)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5f26e8d-8187-4161-af4f-31b9e71e4e8e")
+	)
+	(pad "A" thru_hole circle
+		(at -2.5 1.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74bc93e0-5afe-41b8-9f35-e63686e04108")
+	)
+	(pad "B" thru_hole circle
+		(at 2.5 1.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52bbba4b-7e2d-466a-b42b-12f6ab33f5c2")
+	)
+	(pad "C" thru_hole circle
+		(at 0 1.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c45b371-9b8e-42c8-bdd5-4f6d474df10e")
+	)
+	(pad "S1" thru_hole circle
+		(at -2.5 -1.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91515bce-ae49-46f6-a6d4-251d8dfb69f6")
+	)
+	(pad "S2" thru_hole circle
+		(at 2.5 -1.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd129759-59b7-4afc-9202-6c07ff008728")
+	)
+	(embedded_fonts no)
+	(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/EC11B-SW-Horiz-15K-blue.step"
+		(hide yes)
+		(offset
+			(xyz 0 -5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/user/Downloads/EC11B-SW-Horiz-20K-black.step"
+		(hide yes)
+		(offset
+			(xyz 0 -5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "C:/Users/user/Downloads/3315C-101-016L.STEP"
+		(offset
+			(xyz -5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
